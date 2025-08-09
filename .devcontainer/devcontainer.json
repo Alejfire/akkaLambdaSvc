@@ -1,0 +1,9 @@
+{
+  "name": "Akka Scala Dev",
+  "build": { "dockerfile": "Dockerfile" },
+  "forwardPorts": [8080],
+  "workspaceFolder": "/workspaces/akkaLambdaSvc",
+  "postCreateCommand": "sbt about",
+  "settings": { "terminal.integrated.shell.linux": "/bin/bash" },
+  "extensions": ["scalameta.metals"]
+}
